@@ -4,10 +4,12 @@
   --primary-text-color: #757575;
   --accent-text-color: #000000;
   --accent-color: #2196f3;
+  --background-color: #ffffff;
+  --color-section: #f5f4fa;
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: var(--background-color);
   color: var(--title-text-color);
 }
 
@@ -49,15 +51,16 @@ body {
 /* hero */
 
 .hero-title {
-  color: #ffffff;
+  color: red;
 }
 
 /* button */
 
 .button {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--background-color);
 }
+
 /* section */
 
 .section-title {
@@ -66,6 +69,47 @@ body {
 
 /* advantage */
 
+.advantage p {
+  color: var(--primary-text-color);
+}
+
 /* occupation */
 
 /* team */
+
+.section-team {
+  background-color: var(--color-section);
+}
+
+.team p {
+  color: var(--primary-text-color);
+}
+
+/* footer */
+
+.studio {
+  color: var(--background-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  color: var(--background-color);
+}
+
+/* portfolio */
+
+.button-choice {
+  background-color: var(--color-section);
+  color: var(--title-text-color);
+}
+
+.button-choice:hover {
+  background-color: var(--accent-color);
+}
+
+.menu p {
+  color: var(--primary-text-color);
+}
