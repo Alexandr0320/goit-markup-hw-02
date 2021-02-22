@@ -107,7 +107,7 @@ body {
 }
 
 .button-choice:hover,
-.button-chiice:focus{
+.button-choice:focus{
   background-color: var(--accent-color);
   color: var(--background-color);
 }
