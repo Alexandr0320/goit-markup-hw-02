@@ -106,8 +106,12 @@ body {
   color: var(--title-text-color);
 }
 
-.button-choice:hover,
-.button-choice:focus{
+.button-choice:hover{
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.button-choice:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
 }
