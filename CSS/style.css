@@ -96,6 +96,7 @@ body {
 }
 
 .address {
+  text-decoration: none
   color: var(--background-color);
 }
 
