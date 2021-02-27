@@ -5,8 +5,6 @@
   --accent-color: #2196f3;
   --background-color: #ffffff;
   --color-section: #f5f4fa;
-  --title-text: "Roboto", sans-serif;
-  --secondary-text: "Raleway", sans-serif;
 }
 
 .link {
@@ -22,37 +20,32 @@
 }
 
 body {
-  font-family: var(--title-text);
+  background-color: var(--background-color);
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
 }
 
 .logo {
   color: var(--accent-color);
-  font-family: var(--secondary-text);
-  font-family: Raleway;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
-.logotyp {
-  font-family: var(--secondary-text);
+.logo-studio {
+  font-family: "Raleway", sans-serif;
   color: var(--accent-text-color);
-  font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 /* site navigaion */
 
 .navigation-link {
   color: var(---background-color);
-  font-family: var(--title-text);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,8 +60,6 @@ body {
 /* connection */
 .connection-link {
   color: var(--primary-text-color);
-  font-family: var(--title-text);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -81,11 +72,12 @@ body {
 }
 
 /* hero */
+.hero {
+  background-color: var(--primary-text-color);
+}
 
 .hero-title {
-  color: red;
-  font-family: var(--title-text);
-  font-style: normal;
+  color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -97,45 +89,36 @@ body {
 /* button */
 
 .button {
+  font-family: inherit;
   background-color: var(--accent-color);
   color: var(--background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 /* section */
 
 .advantage-title {
-  color: var(--title-text-color);
-  font-family: var(--title-text);
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantage-par {
-  font-family: var(--title-text);
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* occupation */
 
 .section-title {
-  font-family: var(--title-text);
   color: var(--accent-text-color);
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* team */
@@ -144,85 +127,71 @@ body {
 }
 
 .team-title {
-  font-family: var(--title-text);
-  color: var(--title-text-color);
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .team-name {
-  font-family: var(--title-text);
-  color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-par {
-  font-family: var(--title-text);
   color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* footer */
 
 .logotyp-footer {
   color: var(--background-color);
-  font-family: Raleway;
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.maps {
-  font-family: var(--title-text);
-  color: var(--background-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.studio {
-  color: var(--background-color);
 }
 
 .footer {
   background-color: #2f303a;
 }
 
-.address {
+.maps {
   color: var(--background-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.maps:hover,
+.maps:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.address-item {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* portfolio */
 
 .button-choice {
+  font-family: inherit;
   background-color: var(--color-section);
-  color: var(--title-text-color);
+  cursor: pointer;
 }
 
-.button-choice:hover {
-  background-color: var(--accent-color);
-  color: var(--background-color);
-}
-
+.button-choice:hover,
 .button-choice:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
+}
+
+.menu-link {
+  color: var(--title-text-color);
 }
 
 .menu p {
