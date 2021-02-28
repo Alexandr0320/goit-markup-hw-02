@@ -58,6 +58,10 @@ body {
   color: var(--accent-color);
 }
 
+.navigation .link.current {
+  color: var(--accent-color);
+}
+
 /* connection */
 .connection-link {
   color: var(--primary-text-color);
@@ -213,10 +217,29 @@ body {
   color: var(--background-color);
 }
 
+/* menu */
+
 .menu-link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  ter-spacing: 0.03em;
 }
 
-.menu p {
-  color: var(--primary-text-color);
+.menu-link:hover {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.menu-title {
+  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
