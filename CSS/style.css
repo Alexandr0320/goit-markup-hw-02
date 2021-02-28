@@ -1,6 +1,7 @@
 :root {
   --title-text-color: #212121;
   --primary-text-color: #757575;
+  --color-footer: #2f303a;
   --accent-text-color: #000000;
   --accent-color: #2196f3;
   --background-color: #ffffff;
@@ -95,6 +96,11 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  letter-spacing: 0.06em;
 }
 
 /* section */
@@ -148,6 +154,10 @@ body {
 
 /* footer */
 
+.footer {
+  background-color: var(--color-footer);
+}
+
 .logotyp-footer {
   color: var(--background-color);
   font-family: "Raleway", sans-serif;
@@ -156,8 +166,15 @@ body {
   line-height: 1.19;
 }
 
-.footer {
-  background-color: #2f303a;
+.connection-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: inherit;
+  color: rgba(255, 255, 255, 0.6);
+}
+.connection-footer:hover,
+.connection-footer:focus {
+  color: var(--accent-color);
 }
 
 .maps {
@@ -178,9 +195,15 @@ body {
 
 /* portfolio */
 
+/* buttons */
+
 .button-choice {
   font-family: inherit;
-  background-color: var(--color-section);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: inherit;
   cursor: pointer;
 }
 
